@@ -1,0 +1,62 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "jan",
+                "last": "hake"
+            },
+            "location": {
+                "street": "kiefernweg 199",
+                "city": "schwäbisch gmünd",
+                "state": "hessen",
+                "postcode": 10411,
+                "coordinates": {
+                    "latitude": "-38.9505",
+                    "longitude": "-169.9874"
+                },
+                "timezone": {
+                    "offset": "-10:00",
+                    "description": "Hawaii"
+                }
+            },
+            "email": "jan.hake@example.com",
+            "login": {
+                "uuid": "84127c60-94fa-462d-a589-b2ff354f2327",
+                "username": "orangelion734",
+                "password": "freedom1",
+                "salt": "Jr0PxkZy",
+                "md5": "aafb61426aa0ca6538a166febdcd1819",
+                "sha1": "57677c836d74ac4f30b7d7c00792531004e37e87",
+                "sha256": "fd019fbd44fe86645c00649011ec2baf6e392b9b94a2f1e51955ca56a102daee"
+            },
+            "dob": {
+                "date": "1953-07-27T17:18:17Z",
+                "age": 65
+            },
+            "registered": {
+                "date": "2017-09-30T12:46:09Z",
+                "age": 1
+            },
+            "phone": "0232-9121480",
+            "cell": "0173-9672144",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/97.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/97.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/97.jpg"
+            },
+            "nat": "DE"
+        }
+    ],
+    "info": {
+        "seed": "af75657bc1b02f5e",
+        "results": 1,
+        "page": 1,
+        "version": "1.2"
+    }
+}
