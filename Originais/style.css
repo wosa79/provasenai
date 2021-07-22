@@ -1,0 +1,36 @@
+:root{
+  --color_darker: #375a64;
+  --color_dark: #88a5b0;
+  --color-light:#ebeff2;
+  --color-highlight:#ff5617;
+}
+.header {}
+.header__logo {
+  background-color: var(--color_darker);
+}
+.header__bredcrumb {
+  background-color: var(--color_dark); 
+  color: #ffffff;
+}
+.content {
+  background-color: var(--color-light);
+}
+.student-list-container {
+  background-color: #ffffff; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 22px 12px;
+}
+
+.student-card {
+  background-color: var(--color-light);
+}
+
+.student-card__avatar-container {
+
+}
+
+.student-card__avatar-container__avatar {
+
+}

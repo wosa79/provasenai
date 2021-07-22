@@ -1,0 +1,20 @@
+.header__logo {
+  background-color: var(--color_darker);
+  padding: 8px 18px 12px 18px;
+}
+.header__breadcrumb {
+  background-color: var(--color_dark);
+  padding: 5px 18px 7px 18px;
+  color: #FFFFFF;
+}
+.header__breadcrumb span,
+.header__breadcrumb span:last-child {
+  text-transform: uppercase;
+}
+.header__breadcrumb span {
+  font-weight: 600;
+}
+.header__breadcrumb span+span {
+  text-transform: initial;
+  font-weight: 300;
+}

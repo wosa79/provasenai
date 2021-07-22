@@ -1,0 +1,13 @@
+.profiles-card-container {
+  background-color: #FFFFFF;
+  padding: 22px 8px 4px 8px;
+}
+.profiles-card-container .col {
+  padding: 4px;
+}
+@media (min-width: 768px) {
+  .profiles-card-container .col {
+    min-width: 145px;
+    max-width: 145px;
+  }
+}

@@ -1,0 +1,11 @@
+.content {
+  background-color: var(--color_light);
+  padding-top: 24px;
+  padding-bottom: 130px;
+}
+.content__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color_darker);
+  margin-bottom: 12px;
+}

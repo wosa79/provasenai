@@ -1,0 +1,55 @@
+.card.card--profile {
+  background-color: var(--color_light);
+  padding: 6px;
+  text-align: center;
+}
+.card.card--profile:hover {
+  cursor: pointer;
+}
+.card.card--profile.card--selected {
+  background-color: var(--color_highlight);
+  color: #FFFFFF;
+}
+.card.card--profile .card-select {
+  width: 22px;
+  height: 22px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+.card.card--profile.card--selected .card-select {
+  background-color: #ffddd1;
+}
+.card.card--profile .card-select i {
+  color: #FFFFFF;
+}
+.card.card--profile.card--selected .card-select i {
+  color: var(--color_highlight);
+}
+.card.card--profile .card-img-top.card-img-top--avatar {
+  width: 99px;
+  height: 99px;
+  border-radius: 70px;
+  margin: auto;
+}
+.card.card--profile .card-body {
+  padding: 8px 0px;
+}
+.card.card--profile .card-body .card-text,
+.card.card--profile .card-body .card-title {
+  color: #777777;
+  font-weight: 300;
+}
+.card.card--profile .card-body .card-text {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.card.card--profile .card-body .card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.card.card--profile.card--selected .card-body .card-text,
+.card.card--profile.card--selected .card-body .card-title {
+  color: #FFFFFF;
+}
